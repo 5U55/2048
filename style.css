@@ -1,0 +1,104 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+.box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  margin: 3px;
+  display: inline-block;
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  line-height: 100px;
+}
+
+.block {
+  background-color: black;
+  color: white;
+}
+.two {
+  background-color: red;
+  color: black;
+}
+.four {
+  background-color: orangered;
+  color: black;
+}
+.eight {
+  background-color: darkorange;
+  color: black;
+}
+.sixteen {
+  background-color: gold;
+  color: black;
+}
+.thto {
+  background-color: yellow;
+  color: black;
+}
+.sixtyfor {
+  background-color: greenyellow;
+  color: black;
+}
+.oteght {
+  background-color: lime;
+  color: black;
+}
+.tfsix {
+  background-color: mediumspringgreen;
+  color: black;
+}
+.fivtwelve{
+  background-color: darkturquoise;
+  color: white;
+}
+.ttwentyf{
+  background-color: lightskyblue;
+  color: black;
+}
+.twentfortyat{
+  background-color: mediumpurple;
+  color: black;
+}
+
+.row{
+  margin-right: auto;
+  margin-left: auto;
+  width: 445px;
+}
+
+#scorediv{
+  margin-right: auto;
+  margin-left: auto;
+  width: 445px;
+}
+
+#title{
+  font-size: 68px;
+  font-family:"Arial Black", Gadget, sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  width: 150px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .box{
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+  }
+  .row{
+    width: 245px;
+  }
+  #scorediv{
+    width: 245px;
+  }
+}
+
+.text{
+  font-size: 24px; 
+  font-weight: bold;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
